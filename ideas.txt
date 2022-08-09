@@ -1,0 +1,11 @@
+Cyberpunk theme?
+
+Neon Text:
+https://css-tricks.com/how-to-create-neon-text-with-css/
+
+Also, on projects slide: vertical menu of project names on sidebar, which when clicked, scrolls down to that project.
+HowTo:
+https://stackoverflow.com/questions/16349490/html-css-buttons-that-scroll-down-to-different-div-sections-on-a-webpage
+Inspiration:
+https://timothycook.com/educational
+
