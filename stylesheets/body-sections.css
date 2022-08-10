@@ -9,8 +9,29 @@
   justify-content: center;
   padding-bottom: 50px;
   margin-bottom: 0;
+  position: relative;
 }
 
 .cyberpunk-moog-container {
   background-color: rgb(154, 154, 154);
+}
+
+/* button transformation: 
+got from
+https://www.w3schools.com/howto/howto_css_button_on_image.asp 
+*/
+
+.cyberpunk-synth .about-synth-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
 }
