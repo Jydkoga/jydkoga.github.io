@@ -1,14 +1,69 @@
+/* This is the CSS styling for the footer of the index page.*/
+
+/* 
+This is targeting the footer section.
+
+[display: flex] and [justify-content: center] make it so that the icons are centered on the page, no matter the browser width.
+[margin: 30px 30px] adds 30px of margin on the top and bottom of the footer.
+*/
 .footer {
   display: flex;
   justify-content: center;
   margin: 30px 30px;
 }
 
+/* 
+This targets the social icons.
+
+[display: flex] is setting the container to a flexbox.
+*/
 .socials {
   display: flex;
 }
 
+/* 
+.socials .icon targets the class="icon" within the socials class.
+
+[margin: 0 5px 0 5px] adds 5 px of margin to left and right.
+*/
 .socials .icon {
-  margin-left: 5px;
-  background-color: red;
+  margin: 0 5px 0 5px;
+}
+
+/* 
+This targets the class="icon" within the socials class.
+
+[cursor:pointer] is setting the cursor to a pointer when hovering over the icons.
+*/
+.socials:hover .icon {
+  cursor: pointer;
+}
+
+/* 
+This is targeting the instagram class.
+
+[margin-top: 4px] is setting margin on the top to 4px so that the instagram logo can be aligned with the rest of the socials. 
+[height: 38px] is setting the height of icon to 38px.
+*/
+.instagram {
+  margin-top: 4px;
+  height: 38px;
+}
+
+/* 
+This is targeting the linkedin class.
+
+[height: 46px] is setting the height of icon to 46px.
+*/
+.linkedin {
+  height: 46px;
+}
+
+/* 
+This is targeting the twitter class.
+
+[height: 46px] is setting the height of icon to 46px.
+*/
+.twitter {
+  height: 48px;
 }
