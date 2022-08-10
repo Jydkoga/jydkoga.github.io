@@ -2,6 +2,8 @@ figure out js for footer
 
 figure out hover eventlistener for tone.js
 
+fix position and size of button no matter the browser size
+
 maybe add smooth color transition from dark grey to light grey (synth background)
 
 add documentation to everything

@@ -26,6 +26,21 @@ function playSound(button) {
     // })
     console.log("button clicked")
   })
+
+  button.addEventListener("touchstart", function (e) {
+    //play the melody:
+    melody.forEach(tune => {
+      const now = Tone.now();
+      synth.triggerAttackRelease(tune.note, tune.duration, now + tune.timing);
+    })
+
+
+    // melody.forEach(tune => {
+    //   const now = Tone.now()
+    //   synth.triggerAttackRelease(tune.note, tune.duration, now + tune.timing)
+    // })
+    console.log("button clicked")
+  })
 }
 
 playSound(test);
