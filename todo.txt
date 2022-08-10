@@ -1,4 +1,6 @@
-figure out js for nav bar and footer
+figure out js for footer
+
+figure out hover eventlistener for tone.js
 
 maybe add smooth color transition from dark grey to light grey (synth background)
 
