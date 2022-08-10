@@ -9,3 +9,7 @@ https://stackoverflow.com/questions/16349490/html-css-buttons-that-scroll-down-t
 Inspiration:
 https://timothycook.com/educational
 
+blinking signs?:
+https://stackoverflow.com/questions/34439452/blinking-background-color-animation
+
+
