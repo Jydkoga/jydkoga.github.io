@@ -3,16 +3,8 @@ const logoBtn = document.getElementById("logoBtn");
 const projectsBtn = document.getElementById("projectsBtn");
 const contactBtn = document.getElementById("contactBtn");
 
-// aboutBtn.addEventListener("click", function (e) {
-//   location.href = "about.html";
-// });
-
-// logoBtn.addEventListener("click", function (e) {
-//   location.href = "index.html";
-// });
-
-function addNavBtn(name, file) {
-  name.addEventListener("click", function (e) {
+function addNavBtn(button, file) {
+  button.addEventListener("click", function (e) {
     location.href = file;
   })
 }
