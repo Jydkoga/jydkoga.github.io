@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 30px 30px;
+}
+
+.socials {
+  display: flex;
+}
+
+.socials .icon {
+  margin-left: 5px;
+  background-color: red;
+}
