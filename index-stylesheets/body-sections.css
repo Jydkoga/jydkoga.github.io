@@ -17,6 +17,11 @@
   background-color: rgb(154, 154, 154);
 }
 
+/* 
+Targets the image file for the synth diagram.
+
+[height: auto] resizes image when narrowing browser.
+*/
 .cyberpunk-moog-img {
   max-width: 100%;
   height: auto;

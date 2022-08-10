@@ -6,6 +6,8 @@
 
 .left-section .logo {
   padding: 18px;
+  background-color: transparent;
+  border: none;
 }
 
 .left-section:hover .logo {
@@ -19,7 +21,6 @@
   flex-shrink: 0;
   color: white;
   display: flex;
-
 }
 
 /* 
@@ -28,7 +29,9 @@ selecting the nav-links (about, projects, contact)
 [padding: 18px] adds 18px of padding around each nav-link.
 */
 .right-section .nav-link {
+  background-color: transparent;
   padding: 18px;
+  border: none;
 }
 
 .nav-link:hover {

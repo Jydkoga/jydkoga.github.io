@@ -1,4 +1,5 @@
-1. shrink synth image when shrinking page
-2. figure out js for nav bar and footer
-3. maybe add smooth color transition from dark grey to light grey (synth background)
-4. add documentation to everything
+figure out js for nav bar and footer
+
+maybe add smooth color transition from dark grey to light grey (synth background)
+
+add documentation to everything
