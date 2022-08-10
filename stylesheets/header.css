@@ -1,17 +1,37 @@
 .header {
   height: 55px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 
-.right-section {
-  color: white;
-  display: flex;
-  align-items: center;
+.left-section .logo {
+  padding: 18px;
 }
 
-.right-section,
-.nav-page {
-  margin-right: 10px;
+.left-section:hover .logo {
+  cursor: pointer;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  color: white;
+  display: flex;
+
+}
+
+/* 
+selecting the nav-links (about, projects, contact)
+
+[padding: 18px] adds 18px of padding around each nav-link.
+*/
+.right-section .nav-link {
+  padding: 18px;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  background-color: lightgrey;
 }
