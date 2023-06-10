@@ -1,5 +1,3 @@
-
-
 //create a synth and connect it to the main output (your speakers)
 const synth = new Tone.Synth().toDestination();
 
@@ -20,8 +18,6 @@ function playSound(button) {
       const now = Tone.now();
       synth.triggerAttackRelease(tune.note, tune.duration, now + tune.timing);
     })
-
-
     // melody.forEach(tune => {
     //   const now = Tone.now()
     //   synth.triggerAttackRelease(tune.note, tune.duration, now + tune.timing)
@@ -35,8 +31,6 @@ function playSound(button) {
       const now = Tone.now();
       synth.triggerAttackRelease(tune.note, tune.duration, now + tune.timing);
     })
-
-
     // melody.forEach(tune => {
     //   const now = Tone.now()
     //   synth.triggerAttackRelease(tune.note, tune.duration, now + tune.timing)

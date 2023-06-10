@@ -4,7 +4,7 @@
 }
 
 .cyberpunk-synth {
-  background-color: rgb(154, 154, 154);
+  background-color: rgb(60, 59, 59);
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
@@ -14,7 +14,7 @@
 
 .cyberpunk-moog-container {
   display: flex;
-  background-color: rgb(154, 154, 154);
+  background-color: rgb(60, 59, 59);
 }
 
 /* 
