@@ -6,7 +6,7 @@ const contactBtn = document.getElementById("contactBtn");
 function addNavBtn(button, file) {
   button.addEventListener("click", function (e) {
     location.href = file;
-  })
+  });
 }
 
 addNavBtn(aboutBtn, "about.html");
