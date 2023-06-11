@@ -21,6 +21,17 @@ This targets the social icons.
   display: flex;
 }
 
+.socials .icon .socialsButton {
+  background-color: transparent;
+  padding: 0%;
+  border: none;
+}
+
+.socials .icon:hover .socialsButton {
+  cursor: pointer;
+}
+
+
 /* 
 .socials .icon targets the class="icon" within the socials class.
 
@@ -65,6 +76,6 @@ This is targeting the twitter class.
 
 [height: 46px] is setting the height of icon to 46px.
 */
-.twitter {
-  height: 48px;
+.spotify {
+  height: 46px;
 }
