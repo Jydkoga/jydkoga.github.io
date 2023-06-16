@@ -32,9 +32,11 @@ selecting the nav-links (about, projects, contact)
   background-color: transparent;
   padding: 18px;
   border: none;
+  color: white;
 }
 
 .nav-link:hover {
   cursor: pointer;
   background-color: lightgrey;
+  color: black;
 }
